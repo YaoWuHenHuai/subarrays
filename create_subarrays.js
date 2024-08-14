@@ -8,4 +8,4 @@ function createSubarrays(array, size) {
 }
 array_to_subarray = ["a","b","c","d","e","f"];
 values_per_subarray = 2;
-subarrays_values[i] = (createSubarrays(array_to_subarray, values_per_subarray)).reverse();
+subarrays_values[i] = (createSubarrays(array_to_subarray, values_per_subarray)).reverse(); //prob you may need reverse.() depending on your array
